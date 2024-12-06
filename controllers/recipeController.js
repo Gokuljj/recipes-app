@@ -44,7 +44,7 @@ exports.getRecipeById = async (req, res) => {
     }
 };
 
-// update a recipe 
+// update a recipe ///
 exports.updateRecipe = async (req, res) => {
     try {
         const updatedRecipe = await Recipe.findByIdAndUpdate(req.params.id, req.body, { new: true });
