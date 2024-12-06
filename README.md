@@ -170,6 +170,7 @@ GET http://localhost:5000/api/recipes/648fcde8d94e16a69ef12345
 ## Future Improvements
 - Implement user authentication and authorization.
 - Add pagination for fetching recipes.
+- Include image uploads for recipes.
 - Enhance validation and error handling.
 
 ---
