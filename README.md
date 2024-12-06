@@ -1,6 +1,12 @@
 
 # Recipe App API
 
+
+## Recipe App Link
+https://recipes-app-dgz7.onrender.com
+
+
+
 ## Overview
 This project is a CRUD (Create, Read, Update, Delete) API for managing recipes. Built with Node.js, Express.js, and MongoDB (using Mongoose), it follows the MVC pattern for clean and scalable code architecture. The API allows users to create, retrieve, update, and delete recipes, and includes error handling and validation.
 
@@ -44,6 +50,15 @@ This project is a CRUD (Create, Read, Update, Delete) API for managing recipes. 
      PORT=5000
      MONGO_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/recipesDB?retryWrites=true&w=majority
      ```
+## Provided Instruction to user
+   # link to use(optional)
+   MONGO_URI = mongodb+srv://user_1:userPass1234@cluster0.5e8fz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+
+## Instruction to Validate 
+   # Use tools like
+   MongoDB Compass: For GUI-based validation.
+   Mongoose or MongoClient: in a Node.js script.
+   Postman: if testing in API
 
 4. **Start the Server**:
    ```bash
@@ -67,7 +82,7 @@ This project is a CRUD (Create, Read, Update, Delete) API for managing recipes. 
 
 ---
 
-## Sample Recipe Schema for creating , updating
+## Use this Sample RecipeSchema for creating , updating
 ```json
 {
     "title": "Chicken Briyani",
